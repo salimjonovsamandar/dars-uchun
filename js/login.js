@@ -54,7 +54,7 @@ button && button.addEventListener("click", function (e) {
                 localStorage.setItem("accessToken", data.accessToken);
                 localStorage.setItem("user", JSON.stringify(data))
                 let globalUrl = window.location.href.slice(0, 21)
-                window.location.assign(`${globalUrl}/index.html?`)
+                window.location.assign(`https://dars-uchun.vercel.app/index.html`)
             })
 
             .catch(err => {
