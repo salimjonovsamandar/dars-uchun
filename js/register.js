@@ -56,8 +56,9 @@ button && button.addEventListener("click", function (e) {
                     username.focus()
                 }
                 if (data.message == "User registered successfully!") {
+                    let globalUrl = `https://dars-uchun.vercel.app`
 
-                    let globalUrl = window.location.href.slice(0, 21) // boshqa sahifaga o'tishni topib oldik
+                    // let globalUrl = window.location.href.slice(0, 21) // boshqa sahifaga o'tishni topib oldik
 
                     window.location.assign(`${globalUrl}/pages/login.html?`)
                 }
