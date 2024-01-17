@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    margin-top: 20px;
+    font-size: 50px;
+    }
+  
+  .container {
+    color: rgb(3, 2, 2);
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .container .box {
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.074);
+    border: 1px solid rgba(4, 3, 3, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
+    border-radius: 0.7rem;
+    transition: all ease 0.5s;
+    background-color: rgb(184, 222, 222);
+  }
+  
+  .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .box .title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  
+  .container .box div strong {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .container .box div p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+  }
+  .buttun {
+    padding: 7px 10px;
+    font-size: 20px;
+    margin-left: 175px;
+    background-color: blue;
+    border: 1px solid rgb(56, 123, 123);
+    transition: all ease 0.5s;
+    color: white;
+    cursor: pointer;
+  }
+  .buttun:hover {
+    background-color: transparent;
+    color: black;
+  }
+  .container .box:hover {
+    box-shadow: 0px 0px 20px 1px #16100a3f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+  
+  .btn{
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+  }
+  .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
