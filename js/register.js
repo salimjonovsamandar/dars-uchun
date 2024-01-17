@@ -60,7 +60,7 @@ button && button.addEventListener("click", function (e) {
 
                     // let globalUrl = window.location.href.slice(0, 21) // boshqa sahifaga o'tishni topib oldik
 
-                    window.location.assign(`${globalUrl}/pages/login.html?`)
+                    window.location.assign(`https://dars-uchun.vercel.app/pages/login.html?`)
                 }
                 form.reset()
             })
